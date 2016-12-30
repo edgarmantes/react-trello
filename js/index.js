@@ -1,13 +1,13 @@
 require('babel-polyfill');
 
-var React = require('require');
+var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Card = require('card');
-var List = require('list');
-var Board = require('board');
+
+var Board = require('./components/board');
 
 document.addEventListener('DOMContentLoaded', function(){
+	console.log('index.js load')
 	ReactDOM.render(<Board />, document.getElementById('app'));
 
 });

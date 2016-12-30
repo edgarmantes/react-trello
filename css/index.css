@@ -1,5 +1,5 @@
-.person {
-    width: 200px;
+.board {
+    width: 100%;
     text-align: center;
     border: 1px solid black;
     padding: 10px;
@@ -20,4 +20,12 @@
 
 .highlight {
     background-color: yellow;
+}
+
+.list {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 3%;
+    height: 200px;
+    width: 27%;
 }
