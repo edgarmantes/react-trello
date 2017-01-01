@@ -7,20 +7,6 @@
     display: inline-block;
 }
 
-.person-name {
-    font-weight: bold;
-}
-
-.person-img {
-    display: block;
-    max-width: 128px;
-    max-height: 128px;
-    margin: 10px auto;
-}
-
-.highlight {
-    background-color: yellow;
-}
 
 .list {
     display: inline-block;
